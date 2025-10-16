@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: <dockerhub-username>/turf-backend:latest
+          image: jose22an/turf-backend:latest
           ports:
             - containerPort: 8000
 ---
