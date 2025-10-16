@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: <dockerhub-username>/turf-frontend:latest
+          image: jose22an/turf-frontend:latest
           ports:
             - containerPort: 5173
 ---
